@@ -1,4 +1,4 @@
-package com.example
+package com.stocklogistic
 
 import com.stocklogistic.routes.productRoutes
 import io.ktor.server.application.*

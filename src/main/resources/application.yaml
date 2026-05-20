@@ -4,6 +4,6 @@ ktor:
 
   application:
     modules:
-      - com.example.HttpKt.configureHttp
-      - com.example.SerializationKt.configureSerialization
-      - com.example.RoutingKt.configureRouting
+      - com.stocklogistic.HttpKt.configureHttp
+      - com.stocklogistic.SerializationKt.configureSerialization
+      - com.stocklogistic.RoutingKt.configureRouting

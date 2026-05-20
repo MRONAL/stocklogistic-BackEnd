@@ -26,6 +26,8 @@ fun Route.productRoutes() {
 
             val product = call.receive<Product>()
 
+            println(product)
+
             controller.addProduct(product)
 
             call.respond(
